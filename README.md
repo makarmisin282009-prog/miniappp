@@ -1,0 +1,2 @@
+# miniappp
+100penguincoin
