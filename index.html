@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PenguinTap?</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+
+  <div class="header">
+    <h1>🐧 Penguin<span>Tap</span></h1>
+    <p class="subtitle">Tap. Earn. Chill.</p>
+  </div>
+
+  <div class="coin-wrapper">
+    <img src="penguin.png" id="coin" />
+  </div>
+
+  <div class="stats">
+    <div class="stat">
+      <span class="label">⚡ Energy</span>
+      <span id="energy">100</span>
+    </div>
+    <div class="stat">
+      <span class="label">💰 Points</span>
+      <span id="score">0</span>
+    </div>
+  </div>
+
+  <div class="energy-bar">
+    <div class="energy-fill" id="energy-fill"></div>
+  </div>
+
+  <p class="hint">Tap the coin to earn points</p>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
